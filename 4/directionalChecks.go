@@ -53,7 +53,7 @@ func west(input *[]string, i int, j int) bool {
 }
 
 func northEast(input *[]string, i int, j int) bool {
-	if j < 3 ||
+	if i < 3 ||
 		j >= len((*input)[i])-3 {
 		return false
 	}
